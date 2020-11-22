@@ -1,0 +1,85 @@
+.tabsData-center{
+    width: 363px;
+    background-color: #FFF;
+    border: 1px solid #E8E8EF;
+    box-sizing: border-box;
+    padding-top: 85px;
+    padding-left: 20px;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.btn-container{
+    border-bottom: 1px solid #E8E8EF;
+    width: calc(100% + 20px);
+    margin-left: -20px;
+    margin-top: 10px;
+}
+.btn-container > button {
+    display: inline-block;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #808292;
+    font-size: 14px;
+    height: 48px;
+    line-height: 48px;
+    width: calc(100% / 3);
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.btn-container .active-btn {
+    border-bottom: 4px solid #217CE8;
+}
+.list-info {
+    height: calc(100% - 170px);
+    overflow-y: auto;
+}
+.tab_icon {
+    width: 36px;
+    height: 36px;
+    background-color: #F1F4FC;
+    border-radius: 5px;
+    text-align: center;
+    white-space: nowrap;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.list-desc {
+    position: relative;
+    padding-top: 12px;
+    cursor: pointer;
+}
+.drag_icon {
+    position: absolute;
+    left: 0px;
+    top: 35px;
+    z-index: 1;
+}
+.tab_info {
+    display: flex;
+    padding-left: 22px;
+    padding-top: 12px;
+}
+.tab_info .content {
+    padding-left: 12px;
+}
+.tab_info .title {
+    margin: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #393C44;
+}
+.tab_info .title_info {
+    margin-top: 5px;
+    font-family: Roboto;
+    color: #808292;
+    font-size: 14px;
+    line-height: 21px;
+}
+.list-desc:first-child {
+    margin-top: 20px;
+}
